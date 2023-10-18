@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('code'){
             steps{
-                git url:'https://github.com/mohitt1996/two-tier-flask-app.git', branch:'master'
+                git url:'https://github.com/mohitt1996/NodeJS-ReactJS_app.git', branch:'main'
             }
         }
         stage('build & test'){
